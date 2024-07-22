@@ -13,7 +13,7 @@ The purpose and intent of DevSecOps is to build on the mindset that “everyone 
 
 <h3 align="left"><font face="Arial">As a simple definition, the shift-left security strategy is a way or solution to embedding security as a part of our development process and consider security from the inception steps of application or system design. In other words, security is responsible for everyone who works in the software development and operating process. Of course, security is a profession and we need highly skilled people to play security-related roles; but in this approach, any designer, software architecture, developer, DevOps engineer, and together with security guys have liability about security.</span></font></h3>
 
-<a href="https://owasp.org/www-project-devsecops-guideline/latest/00a-Overview">Reference:OWASP</a>
+<a href="https://owasp.org/www-project-devsecops-guideline/latest/00a-Overview">Reference: OWASP</a>
 
 
 # Shift-left security strategy
