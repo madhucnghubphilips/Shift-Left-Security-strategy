@@ -5,7 +5,7 @@
 
 <h2 align="left"><font face="Arial"><span style="color:green">What Shift-left security strategy?</span></font></h2>
 
-<h3 align="left"><font face="Arial">As a simple definition, the shift-left security strategy is a way or solution to embedding security as a part of our development process and consider security from the inception steps of application or system design. In other words, security is responsible for everyone who works in the software development and operating process. Of course, security is a profession and we need highly skilled people to play security-related roles; but in this approach, any designer, software architecture, developer, DevOps engineer, and … together with security guys have liability about security.</span></font></h3>
+<h3 align="left"><font face="Arial">As a simple definition, the shift-left security strategy is a way or solution to embedding security as a part of our development process and consider security from the inception steps of application or system design. In other words, security is responsible for everyone who works in the software development and operating process. Of course, security is a profession and we need highly skilled people to play security-related roles; but in this approach, any designer, software architecture, developer, DevOps engineer, and together with security guys have liability about security.</span></font></h3>
 
 
 # Shift-left security strategy
