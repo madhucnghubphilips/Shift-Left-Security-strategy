@@ -6,6 +6,8 @@
 <h2 align="left"><font face="Arial"><span style="color:green">What Shift-left security strategy?</span></font></h2>
 
 Before we delve into the Shift-Left Security strategy, let's first understand what DevSecOps is.
+<!-- PNG -->
+<img align="right"  src="https://github.com/madhucnghubphilips/Shift-Left-Security-strategy/blob/main/Resources/DevSecOps.png" />
 
 **Dev+Sec+Ops**, **__As Shannon Lietz - founder at DevSecOps foundation - said:__**<br>
 The purpose and intent of DevSecOps is to build on the mindset that “everyone is responsible for security” with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required.”
