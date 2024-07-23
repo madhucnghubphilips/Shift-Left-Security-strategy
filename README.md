@@ -46,7 +46,7 @@ The concept of "leftshift" in DevSecOps emphasizes integrating security early (s
 	</tr>
 	<tr>
 		<td>Stage 3:</td> 
-		<td>Provide ongoing security training to keep the teams updated on the latest threats and best practices.</br>Encourage developers to take ownership of security by creating a security champions program.</br>Introduce Tainings/Work Instructions.</br>Security and Privacy Risk Management Procedure.</br>Security and Privacy Risk Management SAST Work Instructions.</br>Security and Privacy Risk Management DAST Work Instructions.</br>Security and Privacy Test Cases Procedure.</br>Cryptography and Key Management Standard</td>
+		<td>Provide ongoing security training to keep the teams updated on the latest threats and best practices.</br>Encourage developers to take ownership of security by creating a security champions program.</br>Introducing Tainings/Work Instructions. </br>Security and Privacy Risk Management Procedure.</br>Security and Privacy Risk Management SAST Work Instructions.</br>Security and Privacy Risk Management DAST Work Instructions.</br>Security and Privacy Test Cases Procedure.</br>Cryptography and Key Management Standard</td>
 		<td>Permissions</td>
 		<td>Conditions</td>
 		<td>Limitations</td>
