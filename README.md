@@ -53,57 +53,17 @@ The concept of "leftshift" in DevSecOps emphasizes integrating security early (s
 	</tr>
 	<tr>
 		<td>Stage 4:</td> 
-		<td>Security & Privacy touch point sessions.</br>Involving in Release design and planning stage and overlook SAST status and CI-CD pipe lines</br>Insider Threat Mitigation Program Procedure</br>Open Source Software Vulnerability Management Procedure</td>
+		<td>Security & Privacy touch point sessions.</br>Involving in Release design and planning stage and overlook SAST status and CI-CD pipelines </br>Insider Threat Mitigation Program Procedure</br>Open Source Software Vulnerability Management Procedure</td>
 		<td>Permissions</td>
 		<td>Conditions</td>
 		<td>Limitations</td>
 	</tr>
 	<tr>
 		<td>Stage 5:</td> 
-		<td>Raise awareness within development teams about all SAST tools and provide training for effective use of security tools from the very beginning of development.</td>
+		<td>Raise awareness within development teams about all SAST tools and provide training for effective use of security tools from the very beginning of development.</br>Evaluation of well-defined Security Exception procedure and document </td></td>
 		<td>Permissions</td>
 		<td>Conditions</td>
 		<td>Limitations</td>
 	</tr>
 </table>
 
-
-
-
-<table>
-	<tr>
-		<td><h4>Maturity Level</h4></td> 
-		<td><h4>Training</h4></td>
-		<td><h4>Design Assessment</h4></td>
-		<td><h4>Secure Code Review</h4></td>
-		<td><h4>Security Testing</h4></td>
-	</tr>
-	<tr>
-		<td>License Name</td> 
-		<td><Description</td>
-		<td>Permissions</td>
-		<td>Conditions</td>
-		<td>Limitations</td>
-	</tr>
-	<tr>
-		<td><h4>License Name</h4></td> 
-		<td><h4>Description</h4></td>
-		<td><h4>Permissions</h4></td>
-		<td><h4>Conditions</h4></td>
-		<td><h4>Limitations</h4></td>
-	</tr>
-	<tr>
-		<td><h4>License Name</h4></td> 
-		<td><h4>Description</h4></td>
-		<td><h4>Permissions</h4></td>
-		<td><h4>Conditions</h4></td>
-		<td><h4>Limitations</h4></td>
-	</tr>
-	<tr>
-		<td><h4>License Name</h4></td> 
-		<td><h4>Description</h4></td>
-		<td><h4>Permissions</h4></td>
-		<td><h4>Conditions</h4></td>
-		<td><h4>Limitations</h4></td>
-	</tr>		
-</table>
