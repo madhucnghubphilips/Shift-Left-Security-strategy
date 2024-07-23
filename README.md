@@ -20,3 +20,41 @@ The purpose and intent of DevSecOps is to build on the mindset that “everyone 
 
 # Shift-left security strategy
 The concept of "leftshift" in DevSecOps emphasizes integrating security early (shift-left) in the development lifecycle. This model focuses on embedding security practices from the very beginning of the development process.
+
+<table>
+	<tr>
+		<td><h4>Maturity Level</h4></td> 
+		<td><h4>Training</h4></td>
+		<td><h4>Design Assessment</h4></td>
+		<td><h4>Secure Code Review</h4></td>
+		<td><h4>Security Testing</h4></td>
+	</tr>
+	<tr>
+		<td>License Name</td> 
+		<td><Description</td>
+		<td>Permissions</td>
+		<td>Conditions</td>
+		<td>Limitations</td>
+	</tr>
+	<tr>
+		<td><h4>License Name</h4></td> 
+		<td><h4>Description</h4></td>
+		<td><h4>Permissions</h4></td>
+		<td><h4>Conditions</h4></td>
+		<td><h4>Limitations</h4></td>
+	</tr>
+	<tr>
+		<td><h4>License Name</h4></td> 
+		<td><h4>Description</h4></td>
+		<td><h4>Permissions</h4></td>
+		<td><h4>Conditions</h4></td>
+		<td><h4>Limitations</h4></td>
+	</tr>
+	<tr>
+		<td><h4>License Name</h4></td> 
+		<td><h4>Description</h4></td>
+		<td><h4>Permissions</h4></td>
+		<td><h4>Conditions</h4></td>
+		<td><h4>Limitations</h4></td>
+	</tr>		
+</table>
