@@ -34,36 +34,51 @@ The concept of "leftshift" in DevSecOps emphasizes integrating security early (s
 		<td>Stage 1:</td> 
 		<td>Basic Security Training.</br>Provide initial security awareness training to development and operations teams.</br>Introduce fundamental security concepts and common vulnerabilities.</td>
 		<td>Permissions</td>
-		<td>Conditions</td>
+		<td>As per tech stack, identify Basic SAST tools (Source code analysis tool, Open Source Software/code tool).</br>
+Source code analysis tools: Fortify, Coverity, Checkmarx, Veracode, Bandit, Cppcheck.</br>
+Open Source Software tools: BlackDuck, Snyk, WhiteSource, OWASP Dependency-Check, Retire.js, Clair.</br>
+Introduce developers to SAST tools and their benefits.</br>
+Provide basic training on how to use SAST tools effectively.</br></td>
 		<td>Limitations</td>
 	</tr>
 	<tr>
 		<td>Stage 2:</td> 
-		<td>Establish security requirements and policies.</br>Document these requirements and ensure they are accessible to all teams.</br>Guideline Documents:</br>Input Parameter Validation Guidelines</br>Security Coding Guidelines</br>Sensitive Data Discovery Guidance for Development Teams</br>API/Web/Mobile/Thick Client/Hardware Security and Privacy Guidelines</td>
+		<td>Establish security requirements and policies.</br>Document these requirements and ensure they are accessible to all teams.</br>**Guideline Documents:**</br>Input Parameter Validation Guidelines</br>Security Coding Guidelines</br>Sensitive Data Discovery Guidance for Development Teams</br>API/Web/Mobile/Thick Client/Hardware Security and Privacy Guidelines</td>
 		<td>Permissions</td>
-		<td>Conditions</td>
+		<td>Select and implement a SAST tool that fits the organization’s technology stack and needs.</br>
+On top of basic SASt tools, identify Sensitive information disclosure tool, IaC tool and Malware scan tools.</br>
+Sensitive information disclosure tools: GitLeaks, TruffleHog, git-secrets.</br>
+IaC tools: Checkov, Aqua Security, kics (Keeping Infrastructure as Code Secure), Pulumi.</br>
+Malware scan tools: Malwarebytes, Bitdefender, Norton, McAfee.</br></td>
 		<td>Limitations</td>
 	</tr>
 	<tr>
 		<td>Stage 3:</td> 
-		<td>Provide ongoing security training to keep the teams updated on the latest threats and best practices.</br>Encourage developers to take ownership of security by creating a security champions program.</br>Introducing Tainings/Work Instructions. </br>Security and Privacy Risk Management Procedure.</br>Security and Privacy Risk Management SAST Work Instructions.</br>Security and Privacy Risk Management DAST Work Instructions.</br>Security and Privacy Test Cases Procedure.</br>Cryptography and Key Management Standard</td>
+		<td>Provide ongoing security training to keep the teams updated on the latest threats and best practices.</br>Encourage developers to take ownership of security by creating a security champions program.</br>**Introducing Tainings/Work Instructions.**</br>Security and Privacy Risk Management Procedure.</br>Security and Privacy Risk Management SAST Work Instructions.</br>Security and Privacy Risk Management DAST Work Instructions.</br>Security and Privacy Test Cases Procedure.</br>Cryptography and Key Management Standard</td>
 		<td>Permissions</td>
-		<td>Conditions</td>
+		<td>Integrate SAST tools into the CI/CD pipeline to ensure that security scans are performed automatically with every build.</br></br>
+Set up automated notifications for vulnerabilities detected during SAST scans.</br></td>
 		<td>Limitations</td>
 	</tr>
 	<tr>
 		<td>Stage 4:</td> 
-		<td>Security & Privacy touch point sessions.</br>Involving in Release design and planning stage and overlook SAST status and CI-CD pipelines </br>Insider Threat Mitigation Program Procedure</br>Open Source Software Vulnerability Management Procedure</td>
+		<td>Security & Privacy touch point sessions.</br>Involving in Release design and planning stage and overlook SAST status and CI-CD pipe lines</br>Insider Threat Mitigation Program Procedure</br>Open Source Software Vulnerability Management Procedure</td>
 		<td>Permissions</td>
-		<td>Conditions</td>
+		<td>Ensure that all code, including third-party libraries and open-source components, is scanned by SAST tools.</br>
+Regularly update SAST tools and their rule sets to cover the latest vulnerabilities.</br>
+Develop necessary SAST gated builds.</br>
+Promote the role of security champions within development teams who advocate for secure coding practices.</br></td>
 		<td>Limitations</td>
 	</tr>
 	<tr>
 		<td>Stage 5:</td> 
 		<td>Raise awareness within development teams about all SAST tools and provide training for effective use of security tools from the very beginning of development.</br>Evaluation of well-defined Security Exception procedure and document </td></td>
 		<td>Permissions</td>
-		<td>Conditions</td>
+		<td>Preparing development teams use SAST tools in pre-commit check.</br></br>
+Implement continuous monitoring to track the effectiveness of SAST and other security practices.</br>
+Establish feedback loops where security findings are continuously fed back into development.</br>
+Regularly review and refine SAST processes and rules based on feedback and emerging threats.</br>
+Promote a culture where security is everyone’s responsibility and integrated into daily activities.</br></td>
 		<td>Limitations</td>
 	</tr>
 </table>
-
