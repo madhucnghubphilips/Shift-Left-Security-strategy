@@ -22,6 +22,13 @@ The purpose and intent of DevSecOps is to build on the mindset that “everyone 
 The concept of "leftshift" in DevSecOps emphasizes integrating security early (shift-left) in the development lifecycle. This model focuses on embedding security practices from the very beginning of the development process.
 
 
+
+
+
+
+
+
+
 <table>
 	<tr>
 		<td><h4>Maturity Level</h4></td> 
@@ -39,7 +46,9 @@ Source code analysis tools: Fortify, Coverity, Checkmarx, Veracode, Bandit, Cppc
 Open Source Software tools: BlackDuck, Snyk, WhiteSource, OWASP Dependency-Check, Retire.js, Clair.</br>
 Introduce developers to SAST tools and their benefits.</br>
 Provide basic training on how to use SAST tools effectively.</br></td>
-		<td>Limitations</td>
+		<td>EDUCATE:</br>
+Introduce teams to DAST tools and their benefits.</br> 
+Provide basic training on how to configure and use DAST tools effectively.</td>
 	</tr>
 	<tr>
 		<td>Stage 2:</td> 
@@ -50,15 +59,15 @@ On top of basic SASt tools, identify Sensitive information disclosure tool, IaC 
 Sensitive information disclosure tools: GitLeaks, TruffleHog, git-secrets.</br>
 IaC tools: Checkov, Aqua Security, kics (Keeping Infrastructure as Code Secure), Pulumi.</br>
 Malware scan tools: Malwarebytes, Bitdefender, Norton, McAfee.</br></td>
-		<td>Limitations</td>
+		<td>IDENTIFY:</br>Select and implement a DAST tool that fits the organization’s technology stack and needs.</br>Integrate DAST into the testing environment to allow dynamic scans of running applications.</br>This DAST will take care of common security exploits and provides results.</br>DAST tools: OWASP ZAP proxy, Burpsuite pro, Burpsuite Enterprise.</td>
 	</tr>
 	<tr>
 		<td>Stage 3:</td> 
-		<td>Provide ongoing security training to keep the teams updated on the latest threats and best practices.</br>Encourage developers to take ownership of security by creating a security champions program.</br>**Introducing Tainings/Work Instructions.**</br>Security and Privacy Risk Management Procedure.</br>Security and Privacy Risk Management SAST Work Instructions.</br>Security and Privacy Risk Management DAST Work Instructions.</br>Security and Privacy Test Cases Procedure.</br>Cryptography and Key Management Standard</td>
+		<td>Provide ongoing security training to keep the teams updated on the latest threats and best practices.</br>Encourage developers to take ownership of security by creating a security champions program.</br>Introducing Tainings/Work Instructions.</br>Security and Privacy Risk Management Procedure.</br>Security and Privacy Risk Management SAST Work Instructions.</br>Security and Privacy Risk Management DAST Work Instructions.</br>Security and Privacy Test Cases Procedure.</br>Cryptography and Key Management Standard</td>
 		<td>Permissions</td>
 		<td>Integrate SAST tools into the CI/CD pipeline to ensure that security scans are performed automatically with every build.</br></br>
 Set up automated notifications for vulnerabilities detected during SAST scans.</br></td>
-		<td>Limitations</td>
+		<td>INTEGRATE:</br> Integrate DAST tools into the CI/CD pipeline to ensure that security scans are performed automatically with every build.</br>Set up automated notifications for vulnerabilities detected during DAST scans.</br></td>
 	</tr>
 	<tr>
 		<td>Stage 4:</td> 
@@ -68,7 +77,7 @@ Set up automated notifications for vulnerabilities detected during SAST scans.</
 Regularly update SAST tools and their rule sets to cover the latest vulnerabilities.</br>
 Develop necessary SAST gated builds.</br>
 Promote the role of security champions within development teams who advocate for secure coding practices.</br></td>
-		<td>Limitations</td>
+		<td>ADD MORE:</br> Ensure that all components of the application, including APIs and third-party integrations, are scanned by DAST tools.</br>Regularly update DAST tools and their rule sets to cover the latest vulnerabilities.</br>In addition to utilizing DAST tools, incorporate Interactive Application Security Testing (IAST) tools.</br>IAST Tools: Develop Own Security automation framework, Synopsys Seeker, Acunetix</br>At lease 20-30% of manual security efforts should be taken care by DAST/IAST tools.</td>
 	</tr>
 	<tr>
 		<td>Stage 5:</td> 
@@ -79,6 +88,6 @@ Implement continuous monitoring to track the effectiveness of SAST and other sec
 Establish feedback loops where security findings are continuously fed back into development.</br>
 Regularly review and refine SAST processes and rules based on feedback and emerging threats.</br>
 Promote a culture where security is everyone’s responsibility and integrated into daily activities.</br></td>
-		<td>Limitations</td>
+		<td>REDUCE MANUAL EFFORT:</br>Implement continuous security monitoring to detect and respond to threats in real time.</br>Establish feedback loops where security findings from DAST scans are continuously fed back into development.</br>At lease 50% of manual security efforts should be taken care by DAST/IAST tools.</td>
 	</tr>
 </table>
