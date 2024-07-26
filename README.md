@@ -40,7 +40,11 @@ The concept of "leftshift" in DevSecOps emphasizes integrating security early (s
 	<tr>
 		<td>Stage 1:</td> 
 		<td>Basic Security Training.</br>Provide initial security awareness training to development and operations teams.</br>Introduce fundamental security concepts and common vulnerabilities.</td>
-		<td>Permissions</td>
+		<td>Ad Hoc Approach: Threat modeling is performed sporadically, often only when specific issues arise.
+Secure-SDLC is not adopted 
+No collabration between Security Architects (Product Security Officer) and Development team Architects, project managers, stakeholders at design phase.
+Security Architecture Reviews and Threat Modeling are missing.
+All required documents for Threat Modeling are not available in Design phase.</td>
 		<td>As per tech stack, identify Basic SAST tools (Source code analysis tool, Open Source Software/code tool).</br>
 Source code analysis tools: Fortify, Coverity, Checkmarx, Veracode, Bandit, Cppcheck.</br>
 Open Source Software tools: BlackDuck, Snyk, WhiteSource, OWASP Dependency-Check, Retire.js, Clair.</br>
@@ -53,7 +57,11 @@ Provide basic training on how to configure and use DAST tools effectively.</td>
 	<tr>
 		<td>Stage 2:</td> 
 		<td>Establish security requirements and policies.</br>Document these requirements and ensure they are accessible to all teams.</br>**Guideline Documents:**</br>Input Parameter Validation Guidelines</br>Security Coding Guidelines</br>Sensitive Data Discovery Guidance for Development Teams</br>API/Web/Mobile/Thick Client/Hardware Security and Privacy Guidelines</td>
-		<td>Permissions</td>
+		<td>Adoption of standard methodologies such as STRIDE or DREAD.
+Create the awareness, Trainings and benifits of Threat Model and Security Architecture Reviews at design phase.
+Provide requirement details (Architectural Design Diagram, LLDD, HLDD etc.) of Threat Model and Security Architecture Reviews.
+High-Level Design Document should contain security objectives (e.g., confidentiality, integrity, availability).
+Low-Level Design Document (LLDD) should contain Access controls, authentication, and authorization mechanisms, Encryption and data protection requirements.</td>
 		<td>Select and implement a SAST tool that fits the organization’s technology stack and needs.</br>
 On top of basic SASt tools, identify Sensitive information disclosure tool, IaC tool and Malware scan tools.</br>
 Sensitive information disclosure tools: GitLeaks, TruffleHog, git-secrets.</br>
@@ -64,7 +72,9 @@ Malware scan tools: Malwarebytes, Bitdefender, Norton, McAfee.</br></td>
 	<tr>
 		<td>Stage 3:</td> 
 		<td>Provide ongoing security training to keep the teams updated on the latest threats and best practices.</br>Encourage developers to take ownership of security by creating a security champions program.</br>Introducing Tainings/Work Instructions.</br>Security and Privacy Risk Management Procedure.</br>Security and Privacy Risk Management SAST Work Instructions.</br>Security and Privacy Risk Management DAST Work Instructions.</br>Security and Privacy Test Cases Procedure.</br>Cryptography and Key Management Standard</td>
-		<td>Permissions</td>
+		<td>Threat modeling is applied consistently across projects and systems.
+Collaboration between development, security, and operations teams.
+Regular reviews and updates of threat models based on new threats and changes.</td>
 		<td>Integrate SAST tools into the CI/CD pipeline to ensure that security scans are performed automatically with every build.</br></br>
 Set up automated notifications for vulnerabilities detected during SAST scans.</br></td>
 		<td>INTEGRATE:</br> Integrate DAST tools into the CI/CD pipeline to ensure that security scans are performed automatically with every build.</br>Set up automated notifications for vulnerabilities detected during DAST scans.</br></td>
@@ -72,7 +82,9 @@ Set up automated notifications for vulnerabilities detected during SAST scans.</
 	<tr>
 		<td>Stage 4:</td> 
 		<td>Security & Privacy touch point sessions.</br>Involving in Release design and planning stage and overlook SAST status and CI-CD pipe lines</br>Insider Threat Mitigation Program Procedure</br>Open Source Software Vulnerability Management Procedure</td>
-		<td>Permissions</td>
+		<td>Use of advanced tools and techniques for threat modeling and risk assessment (Along with opensource Threat Model tools using professional Threat Model tools).
+Ongoing training and development for teams on advanced threat modeling techniques.
+Collect feedback from stakeholders and incorporate lessons learned into future threat modeling exercises.</td>
 		<td>Ensure that all code, including third-party libraries and open-source components, is scanned by SAST tools.</br>
 Regularly update SAST tools and their rule sets to cover the latest vulnerabilities.</br>
 Develop necessary SAST gated builds.</br>
@@ -82,7 +94,9 @@ Promote the role of security champions within development teams who advocate for
 	<tr>
 		<td>Stage 5:</td> 
 		<td>Raise awareness within development teams about all SAST tools and provide training for effective use of security tools from the very beginning of development.</br>Evaluation of well-defined Security Exception procedure and document </td></td>
-		<td>Permissions</td>
+		<td>Security architecture reviews and Threat Model completion at Design level.
+If any gap is foung in Security Design, providing feedback (or Risk Track), conducting re-assesment on new disign.
+The output of Threat model will be discuss with Pentest Team (Scenarios which are testable at once feature/product is ready) and finalizing Security Test Stratergy document.</td>
 		<td>Preparing development teams use SAST tools in pre-commit check.</br></br>
 Implement continuous monitoring to track the effectiveness of SAST and other security practices.</br>
 Establish feedback loops where security findings are continuously fed back into development.</br>
