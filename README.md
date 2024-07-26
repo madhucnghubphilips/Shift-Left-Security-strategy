@@ -21,7 +21,57 @@ The purpose and intent of DevSecOps is to build on the mindset that “everyone 
 # Shift-left security strategy
 The concept of "leftshift" in DevSecOps emphasizes integrating security early (shift-left) in the development lifecycle. This model focuses on embedding security practices from the very beginning of the development process.
 
+<h2>Training:</h2>
 
+<h3>Training is a crucial component of the Shift-Left Security Maturity Model, which focuses on integrating security practices early in the software development lifecycle (SDLC). Here’s a structured approach to incorporating training into each stage of the Shift-Left Security Maturity Model.</h3>
+
+<h4>STAGE1:</br></h4>Introduce foundational concepts of security and its importance in the SDLC.
+Educate teams about the benefits and goals of integrating security early in the development process.
+Introduction to the Shift-Left approach and its benefits for security.
+Provide initial security awareness training to development and operations teams.
+Introduce fundamental security concepts and common vulnerabilities.
+
+<h4>STAGE2:</br></h4>Train teams on standardized security practices and tools.
+Teach how to incorporate security checks into the development process.
+Educate developers on secure coding techniques and common vulnerabilities.
+Introduction to threat modeling methodologies and how to apply them.
+Training on using security tools integrated into the development pipeline (e.g., static analysis, SAST).
+Establish security requirements and policies.</br>Document these requirements and ensure they are accessible to all teams.</br>
+Develop Guideline Documents: Input Parameter Validation Guidelines.</br>
+Security Coding Guidelines, Sensitive Data Discovery Guidance for Development Teams.</br>
+API/Web/Mobile/Thick Client/Hardware Security and Privacy Guidelines
+
+<h4>STAGE3:</h4>
+Advance training to include integration of security practices into CI/CD pipelines.
+Foster collaboration between development, security, and operations teams.
+Training on integrating security tools and practices into CI/CD pipelines.
+Best practices for cross-functional team collaboration on security issues.
+Conduct workshops that simulate real-world scenarios and involve cross-functional teams.
+Offer advanced courses on specific security practices and tools.
+	Provide ongoing security training to keep the teams updated on the latest threats and best practices. 
+	Encourage developers to take ownership of security by creating a security champions program. 
+	Introducing Tainings/Work Instructions. 
+	Security and Privacy Risk Management Procedure. 
+	Security and Privacy Risk Management SAST Work Instructions. 
+	Security and Privacy Risk Management DAST Work Instructions. 
+	Security and Privacy Test Cases Procedure. 
+	Cryptography and Key Management Standard
+
+<h4>STAGE4:</h4>
+Understanding and applying metrics and KPIs to evaluate security effectiveness.
+Conduct workshops focused on understanding and applying security metrics.
+	Security & Privacy touch point sessions. 
+	Involving in Release design and planning stage and overlook SAST status and CI-CD pipe lines. 
+	Insider Threat Mitigation Program Procedure. 
+	Open Source Software Vulnerability Management Procedure.
+
+<h4>STAGE5:</h4>
+Align security training with overall business objectives and strategic goals.
+Promote continuous innovation and adaptation in security practices.
+Training on aligning security practices with business strategy and objectives.
+Train leaders on how to drive a security-focused culture and strategic alignment.
+Develop leadership training programs focused on security strategy and culture.
+	Raise awareness within development teams about all SAST tools and provide training for effective use of security tools from the very beginning of development. Evaluation of well-defined Security Exception procedure and document
 
 
 <table>
