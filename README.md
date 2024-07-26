@@ -24,6 +24,51 @@ The concept of "leftshift" in DevSecOps emphasizes integrating security early (s
 
 
 
+<table>
+	<tr>
+		<td><h4>Maturity Level</h4></td>
+		<td><h4>Design Assessment</h4></td>
+		<td><h4>Secure Code Review</h4></td>
+		<td><h4>Security Testing</h4></td>
+	</tr>
+	<tr>
+		<td><h4>Stage 1:</h4></td>
+		<td>Ad Hoc Approach: Threat modeling is performed sporadically, often only when specific issues arise. Secure-SDLC is not adopted No collabration between Security Architects (Product Security Officer) and Development team Architects, project managers, stakeholders at design phase. Security Architecture Reviews and Threat Modeling are missing. All required documents for Threat Modeling are not available in Design phase.</td>
+		<td>As per tech stack, identify Basic SAST tools (Source code analysis tool, Open Source Software/code tool). Source code analysis tools: Fortify, Coverity, Checkmarx, Veracode, Bandit, Cppcheck. Open Source Software tools: BlackDuck, Snyk, WhiteSource, OWASP Dependency-Check, Retire.js, Clair. Introduce developers to SAST tools and their benefits. Provide basic training on how to use SAST tools effectively.</td>
+		<td>EDUCATE: Introduce teams to DAST tools and their benefits. Provide basic training on how to configure and use DAST tools effectively.</td>
+	</tr>
+	<tr>
+		<td><h4>Stage 2:</h4></td>
+		<td>Adoption of standard methodologies such as STRIDE or DREAD. Create the awareness, Trainings and benifits of Threat Model and Security Architecture Reviews at design phase. Provide requirement details (Architectural Design Diagram, LLDD, HLDD etc.) of Threat Model and Security Architecture Reviews. High-Level Design Document should contain security objectives (e.g., confidentiality, integrity, availability). Low-Level Design Document (LLDD) should contain Access controls, authentication, and authorization mechanisms, Encryption and data protection requirements.</td>
+		<td>Select and implement a SAST tool that fits the organization’s technology stack and needs. On top of basic SASt tools, identify Sensitive information disclosure tool, IaC tool and Malware scan tools. Sensitive information disclosure tools: GitLeaks, TruffleHog, git-secrets. IaC tools: Checkov, Aqua Security, kics (Keeping Infrastructure as Code Secure), Pulumi. Malware scan tools: Malwarebytes, Bitdefender, Norton, McAfee.</td>
+		<td>IDENTIFY: Select and implement a DAST tool that fits the organization’s technology stack and needs. Integrate DAST into the testing environment to allow dynamic scans of running applications. This DAST will take care of common security exploits and provides results. DAST tools: OWASP ZAP proxy, Burpsuite pro, Burpsuite Enterprise.</td>
+	</tr>
+	<tr>
+		<td><h4>Stage 3:</h4></td>
+		<td>Threat modeling is applied consistently across projects and systems. Collaboration between development, security, and operations teams. Regular reviews and updates of threat models based on new threats and changes.</td>
+		<td>Integrate SAST tools into the CI/CD pipeline to ensure that security scans are performed automatically with every build. Set up automated notifications for vulnerabilities detected during SAST scans.</td>
+		<td>INTEGRATE: Integrate DAST tools into the CI/CD pipeline to ensure that security scans are performed automatically with every build. Set up automated notifications for vulnerabilities detected during DAST scans.</td>
+	</tr>
+	<tr>
+		<td><h4>Stage 4:</h4></td>
+		<td>Use of advanced tools and techniques for threat modeling and risk assessment (Along with opensource Threat Model tools using professional Threat Model tools). Ongoing training and development for teams on advanced threat modeling techniques. Collect feedback from stakeholders and incorporate lessons learned into future threat modeling exercises.</td>
+		<td>Ensure that all code, including third-party libraries and open-source components, is scanned by SAST tools. Regularly update SAST tools and their rule sets to cover the latest vulnerabilities. Develop necessary SAST gated builds. Promote the role of security champions within development teams who advocate for secure coding practices.</td>
+		<td>ADD MORE: Ensure that all components of the application, including APIs and third-party integrations, are scanned by DAST tools. Regularly update DAST tools and their rule sets to cover the latest vulnerabilities. In addition to utilizing DAST tools, incorporate Interactive Application Security Testing (IAST) tools. IAST Tools: Develop Own Security automation framework, Synopsys Seeker, Acunetix At lease 20-30% of manual security efforts should be taken care by DAST/IAST tools.</td>
+	</tr>
+	<tr>
+		<td><h4>Stage 5:</h4></td>
+		<td>Security architecture reviews and Threat Model completion at Design level. If any gap is foung in Security Design, providing feedback (or Risk Track), conducting re-assesment on new disign. The output of Threat model will be discuss with Pentest Team (Scenarios which are testable at once feature/product is ready) and finalizing Security Test Stratergy document.</td>
+		<td>Preparing development teams use SAST tools in pre-commit check. Implement continuous monitoring to track the effectiveness of SAST and other security practices. Establish feedback loops where security findings are continuously fed back into development. Regularly review and refine SAST processes and rules based on feedback and emerging threats. Promote a culture where security is everyone’s responsibility and integrated into daily activities.</td>
+		<td>REDUCE MANUAL EFFORT: Implement continuous security monitoring to detect and respond to threats in real time. Establish feedback loops where security findings from DAST scans are continuously fed back into development. At lease 50% of manual security efforts should be taken care by DAST/IAST tools.</td>
+	</tr>
+</table>
+
+
+
+
+
+
+
 
 <table>
 	<tr>
