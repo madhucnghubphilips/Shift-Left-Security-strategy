@@ -35,8 +35,8 @@ The concept of "leftshift" in DevSecOps emphasizes integrating security early (s
 	</tr>
 	<tr>
 		<td><h4>Stage 1:</h4></td>
-		<td>Basic Security Training. Provide initial security awareness training to development and operations teams. Introduce fundamental security concepts and common vulnerabilities.</td>
-		<td>Ad Hoc Approach: Threat modeling is performed sporadically, often only when specific issues arise. Secure-SDLC is not adopted No collabration between Security Architects (Product Security Officer) and Development team Architects, project managers, stakeholders at design phase. Security Architecture Reviews and Threat Modeling are missing. All required documents for Threat Modeling are not available in Design phase.</td>
+		<td>Basic Security Training.</br> Provide initial security awareness training to development and operations teams.</br>Introduce fundamental security concepts and common vulnerabilities.</td>
+		<td>Ad Hoc Approach: Threat modeling is performed sporadically, often only when specific issues arise.</br>Secure-SDLC is not adopted No collabration between Security Architects (Product Security Officer) and Development team Architects, project managers, stakeholders at design phase.</br>Security Architecture Reviews and Threat Modeling are missing. All required documents for Threat Modeling are not available in Design phase.</td>
 		<td>As per tech stack, identify Basic SAST tools (Source code analysis tool, Open Source Software/code tool). Source code analysis tools: Fortify, Coverity, Checkmarx, Veracode, Bandit, Cppcheck. Open Source Software tools: BlackDuck, Snyk, WhiteSource, OWASP Dependency-Check, Retire.js, Clair. Introduce developers to SAST tools and their benefits. Provide basic training on how to use SAST tools effectively.</td>
 		<td>EDUCATE: Introduce teams to DAST tools and their benefits. Provide basic training on how to configure and use DAST tools effectively.</td>
 	</tr>
