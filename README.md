@@ -5,7 +5,7 @@
 
 <h2 align="left"><font face="Arial"><span style="color:green">What Shift-left security strategy?</span></font></h2>
 
-Before we delve into the Shift-Left Security strategy, let's first understand what DevSecOps is.
+Before we delve into the Shift-Left Security strategy, let's first understand what DevSecOps is
 <!-- PNG -->
 <img align="right"  src="https://github.com/madhucnghubphilips/Shift-Left-Security-strategy/blob/main/Resources/DevSecOps.png" />
 
