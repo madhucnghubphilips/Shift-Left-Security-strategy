@@ -10,7 +10,7 @@ Before we delve into the Shift-Left Security strategy, let's first understand wh
 <img align="right"  src="https://github.com/madhucnghubphilips/Shift-Left-Security-strategy/blob/main/Resources/DevSecOps.png" />
 
 **Dev+Sec+Ops**, **__As Shannon Lietz - founder at DevSecOps foundation - said:__**<br>
-The purpose and intent of DevSecOps is to build on the mindset that “everyone is responsible for security” with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required....”
+The purpose and intent of DevSecOps is to build on the mindset that “everyone is responsible for security” with the goal of safely distributing security decisions at speed and scale to those who hold the highest level of context without sacrificing the safety required.”
 
 **Shift-left security strategy**<br>
 <font face="Arial">As a simple definition, the shift-left security strategy is a way or solution to embedding security as a part of our development process and **_consider security from the inception steps of application or system design_**. In other words, **_security is responsible for everyone who works in the software development and operating process._** Of course, security is a profession and we need highly skilled people to play security-related roles; but in this approach, any designer, software architecture, developer, DevOps engineer, and together with security guys have liability about security.</span></font>
